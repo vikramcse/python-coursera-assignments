@@ -126,6 +126,7 @@ def keyup(key):
         paddle2_vel = 0
 
 def restart():
+    global score1, score2
     score1 = score2 = 0
     new_game()
 
